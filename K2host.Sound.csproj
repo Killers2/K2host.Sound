@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Tony N. Hyde</Authors>
+    <Company>K2host.co.uk</Company>
+    <Description>A Sound and voice synth threaded player using NAudio for games and apps.</Description>
+    <PackageProjectUrl>https://github.com/Killers2/K2host.Sound</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Killers2/K2host.Sound</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>Icon128.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>K2host, Sound, Music, Voice Synth</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +23,17 @@
 
   <ItemGroup>
     <ProjectReference Include="..\K2host.Threading\K2host.Threading.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\K2host.Pictures\Icon128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
