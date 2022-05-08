@@ -14,7 +14,11 @@
     <PackageIconUrl />
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>K2host, Sound, Music, Voice Synth</PackageTags>
-    <Version>1.0.1</Version>
+    <Version>2.0.6</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>D:\Development\K2host Works\K2host.Packages\K2host.Sound\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
